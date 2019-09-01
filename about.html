@@ -1,0 +1,21 @@
+{% extends "ques/header.html" %}
+{% load staticfiles %}
+{% block content %}
+<!--<script>setTimeout(function(){window.location.href="/"},3000);</script>-->
+	<div class="row">
+		  <div class="col-sm-3">
+			  <br>
+			  
+				<img src="{% static 'ques/img/pic.jpg' %}" class="responsive-img" style='max-height:150px;border-radius: 50px 50px 50px 50px' alt="face">
+			  
+		  </div>
+		  <div class="col-sm-6">
+			  <div class="box" style="background-color:#ced5e0;border-bottom: 6px solid blue;margin-top:50px;border-radius: 50px 50px 50px 50px">
+				<p>
+				This website is developed by Aditya Bararia for non-commercial purpose. He is a student of BIT Mesra.<br>
+				He is currently pursuing Information Technology.Thank You!!
+				</p>
+			</div>
+		  </div>
+	</div>
+{% endblock %}
